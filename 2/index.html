@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!--required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--twitter og-->
+    <meta name="twitter:site" content="@themetags">
+    <meta name="twitter:creator" content="@themetags">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Earn Opinion">
+    <meta name="twitter:description" content="Earn Opinion">
+    <meta name="twitter:image" content="#">
+
+    <!--facebook og-->
+    <meta property="og:url" content="#">
+    <meta name="twitter:title" content="Earn Opinion">
+    <meta property="og:description" content="Earn Opinion">
+    <meta property="og:image" content="#">
+    <meta property="og:image:secure_url" content="#">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="600">
+
+    <!--meta-->
+    <meta name="description" content="Earn Opinion">
+    <meta name="author" content="ThemeTags">
+
+    <!--favicon icon-->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="16x16">
+
+    <!--title-->
+    <title>Earn Opinion</title>
+
+    <!--google fonts-->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+    <!-- Swiper css -->
+    <link rel="stylesheet" href="assets/css/swiper.css">
+
+    <!--build:css-->
+    <link rel="stylesheet" href="assets/css/main+bootstrap.css">
+    <!-- endbuild -->
+
+    <!--custom css start-->
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <!--custom css end-->
+
+</head>
+
+<body>
+
+    <!--preloader start-->
+    <div id="preloader">
+        <div class="preloader-wrap">
+            <img src="assets/img/favicon.png" alt="logo" class="img-fluid preloader-icon" />
+            <div class="loading-bar"></div>
+        </div>
+    </div>
+    <!--preloader end-->
+    <!--main content wrapper start-->
+    <div class="main-wrapper">
+
+        <!--header section start-->
+        <!--header start-->
+        <header class="main-header position-absolute w-100">
+            <nav class="navbar navbar-expand-xl navbar-dark sticky-header z-10">
+                <div class="container d-flex align-items-center justify-content-lg-between position-relative">
+                    <a href="index.html" class="navbar-brand d-flex align-items-center mb-md-0 text-decoration-none">
+                        <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white"
+                            style="height: 72px !important;" />
+                        <img src="assets/img/logo-color.png" alt="logo" class="img-fluid logo-color" />
+                    </a>
+                    <a class="navbar-toggler position-absolute right-0 border-0" href="#offcanvasWithBackdrop">
+                        <span class="far fa-bars" data-bs-target="#offcanvasWithBackdrop"
+                            aria-controls="offcanvasWithBackdrop" data-bs-toggle="offcanvas" role="button"></span>
+                    </a>
+                    <div class="clearfix"></div>
+                    <div class="collapse navbar-collapse justify-content-center">
+                        <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+                            <li><a href="index.html" class="nav-link">Surveys</a></li>
+                            <li><a href="services.html" class="nav-link">Offers</a></li>
+                            <li><a href="services.html" class="nav-link">Affiliates</a></li>
+                            <li><a href="services.html" class="nav-link">Forum</a></li>
+                            <li><a href="services.html" class="nav-link">Cashout</a></li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">More</a>
+                                <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                    <div class="rounded-custom width-full" style="width: 200px;">
+                                        <div class="dropdown-grid-item">
+                                            <a href="more_drowpos.html" class="dropdown-link px-0">
+                                                <div class="drop-title">Add menus here</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="action-btns text-end me-5 me-lg-0 d-none d-md-block d-lg-block">
+                        <a href="login.html" class="btn btn-link text-decoration-none me-2">Sign In</a>
+                        <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                    </div>
+
+                </div>
+            </nav>
+            <!--offcanvas menu start-->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasWithBackdrop">
+                <div class="offcanvas-header d-flex align-items-center mt-4">
+                    <a href="index.html" class="d-flex align-items-center mb-md-0 text-decoration-none">
+                        <img src="assets/img/logo-color.png" alt="logo" class="img-fluid ps-2" />
+                    </a>
+                    <button type="button" class="close-btn text-danger" data-bs-dismiss="offcanvas" aria-label="Close">
+                        <i class="far fa-close"></i>
+                    </button>
+                </div>
+                <div class="offcanvas-body z-10">
+                    <ul class="nav col-12 col-md-auto justify-content-center main-menu">
+                        <li><a href="index.html" class="nav-link">Surveys</a></li>
+                        <li><a href="services.html" class="nav-link">Offers</a></li>
+                        <li><a href="services.html" class="nav-link">Affiliates</a></li>
+                        <li><a href="services.html" class="nav-link">Forum</a></li>
+                        <li><a href="services.html" class="nav-link">Cashout</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">More</a>
+                            <div class="dropdown-menu border-0 rounded-custom shadow py-0 bg-white">
+                                <div class="rounded-custom width-full" style="width: 200px;">
+                                    <div class="dropdown-grid-item">
+                                        <a href="more_drowpos.html" class="dropdown-link px-0">
+                                            <div class="drop-title">Add menus here</div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="action-btns mt-4 ps-3">
+                        <a href="login.html" class="btn btn-outline-primary me-2">Sign In</a>
+                        <a href="request-demo.html" class="btn btn-primary">Get Started</a>
+                    </div>
+                </div>
+            </div>
+            <!--offcanvas menu end-->
+        </header>
+        <!--header end-->
+        <!--header section end-->
+
+        <!--hero section start-->
+        <section class="hero-section ptb-120 text-white bg-gradient"
+            style="background: url('assets/img/hero-dot-bg.png')no-repeat center right">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-10">
+                        <div class="hero-content-wrap mt-5 mt-lg-0 mt-xl-0">
+                            <h1 class="fw-bold display-5">Earn extra cash online</h1>
+                            <p class="lead">Earn Opinion is a global online community with multiple earning options.
+                                Join now
+                                and start earning with paid online surveys, cash offers and more!
+                                <br>
+                                Looking for ClixSense? See the exciting news here.
+                            </p>
+                            <div class="action-btn mt-5 align-items-center d-block d-sm-flex d-lg-flex d-md-flex">
+                                <a href="request-demo.html" class="btn btn-primary me-3">Request For Demo</a>
+                                <a href="http://www.youtube.com/watch?v=hAP2QF--2Dg"
+                                    class="text-decoration-none popup-youtube d-inline-flex align-items-center watch-now-btn mt-3 mt-lg-0 mt-md-0">
+                                    <i class="fas fa-play"></i> Watch Demo </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8 mt-5">
+                        <div class="hero-img position-relative circle-shape-images">
+                            <!--animated shape start-->
+                            <ul class="position-absolute animate-element parallax-element circle-shape-list">
+                                <li class="layer" data-depth="0.03">
+                                    <img src="assets/img/shape/circle-1.svg" alt="shape"
+                                        class="circle-shape-item type-0 hero-1">
+                                </li>
+                                <li class="layer" data-depth="0.02">
+                                    <img src="assets/img/shape/circle-1.svg" alt="shape"
+                                        class="circle-shape-item type-1 hero-1">
+                                </li>
+
+                                <li class="layer" data-depth="0.04">
+                                    <img src="assets/img/shape/circle-1.svg" alt="shape"
+                                        class="circle-shape-item type-3 hero-1">
+                                </li>
+                                <li class="layer" data-depth="0.03">
+                                    <img src="assets/img/shape/circle-1.svg" alt="shape"
+                                        class="circle-shape-item type-4 hero-1">
+                                </li>
+
+                            </ul>
+                            <!--animated shape end-->
+                            <img src="assets/img/slider-img.png" alt="hero img" class="img-fluid position-relative z-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--hero section end-->
+
+        <!--feature promo section start-->
+        <section class="feature-promo ptb-120 bg-light">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-10">
+                        <div class="section-heading text-center">
+                            <h2>With all the Features You Need</h2>
+                            <p>Credibly grow premier ideas rather than bricks-and-clicks strategic theme areas
+                                distributed for stand-alone web-readiness.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature-promo p-lg-5 p-4 text-center mt-3">
+                            <img src="./assets/img/s-1.svg" alt="">
+                            <div class="feature-info-wrap">
+                                <h3 class="h3">Paid Surveys</h3>
+                                <p>Earn cash for taking free paid surveys while influencing the next generation of
+                                    products, services and much more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature-promo p-lg-5 p-4 text-center mt-3">
+                            <img src="./assets/img/s-2.svg" alt="">
+                            <div class="feature-info-wrap">
+                                <h3 class="h3">Cash Offers</h3>
+                                <p>Get paid for trying new products and services, downloading apps, signing up for
+                                    websites, watching videos and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="single-feature-promo p-lg-5 p-4 text-center mt-3">
+                            <img src="./assets/img/s-3.svg" alt="">
+                            <div class="feature-info-wrap">
+                                <h3 class="h3">Referrals</h3>
+                                <p>Share Earn Opinion with your friends and watch your earnings grow. You will earn up
+                                    to 30%
+                                    of what your referrals make!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row pt-lg-5 pt-3">
+                    <div class="col-lg-6 mt-4">
+                        <div
+                            class="position-relative d-flex flex-column h-100 flex-wrap bg-warning-soft p-5 rounded-custom">
+                            <div class="cta-left-info mb-2">
+                                <h5>Top 10 earners</h5>
+
+                            </div>
+                            <div class="">
+                                <table class="table table-hover">
+                                    <tr>
+                                        <th><strong>Username</strong></th>
+                                        <th><strong>Amount</strong></th>
+                                        <th><strong>Method</strong></th>
+                                        <th><strong>Date</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="ctn-table">
+                                <a href="#" class="btn btn-dark">View More!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-4">
+                        <div
+                            class="position-relative d-flex flex-column h-100 flex-wrap bg-info-soft p-5 rounded-custom">
+                            <div class="cta-left-info mb-2">
+                                <h5>Last 10 withdrawals</h5>
+                            </div>
+                            <div class="">
+                                <table class="table table-hover">
+                                    <tr>
+                                        <th><strong>Username</strong></th>
+                                        <th><strong>Earned</strong></th>
+                                        <th><strong>Company</strong></th>
+                                        <th><strong>Date</strong></th>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                    <tr>
+                                        <td>amar</td>
+                                        <td>$65.87</td>
+                                        <td>PayPal</td>
+                                        <td>01/11/2022</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="ctn-table">
+                                <a href="#" class="btn btn-primary">View More!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--feature promo section end-->
+
+        <section class="contestf my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 mt-5 px-4">
+                        <div class="why-choose-content">
+                            <div class="icon-box rounded-custom bg-primary shadow-sm d-inline-block">
+                                <i class="fal fa-shield-check fa-2x text-white"></i>
+                            </div>
+                            <h2>OfferWall Contest</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, velit? Nihil,
+                                voluptatum sapiente est adipisci sequi quos possimus. Dignissimos, veniam? Ullam natus
+                                debitis earum aspernatur laboriosam qui autem. Nostrum incidunt earum dignissimos ea
+                                facere excepturi.
+                            </p>
+                            <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Thought leadership
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Personal branding
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Modernized
+                                    prospecting</li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Better win rates
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Showcasing success
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Sales compliance
+                                </li>
+                            </ul>
+                            <a href="about-us.html" class="read-more-link text-decoration-none">Know More contest <i
+                                    class="far fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5 px-4">
+                        <div class="why-choose-content">
+                            <div class="icon-box rounded-custom bg-warning shadow-sm d-inline-block">
+                                <i class="fal fa-shield-check fa-2x text-dark"></i>
+                            </div>
+                            <h2>Referral Contest</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, velit? Nihil,
+                                voluptatum sapiente est adipisci sequi quos possimus. Dignissimos, veniam? Ullam natus
+                                debitis earum aspernatur laboriosam qui autem. Nostrum incidunt earum dignissimos ea
+                                facere excepturi.
+                            </p>
+                            <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-warning"></i>Thought leadership
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-warning"></i>Personal branding
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-warning"></i>Modernized
+                                    prospecting</li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-warning"></i>Better win rates
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-warning"></i>Showcasing success
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-warning"></i>Sales compliance
+                                </li>
+                            </ul>
+                            <a href="about-us.html" class="read-more-link text-decoration-none"
+                                style="color: #FFB116 !important;">Know More contest <i
+                                    class="far fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-5 px-4">
+                        <div class="why-choose-content">
+                            <div class="icon-box rounded-custom bg-primary shadow-sm d-inline-block">
+                                <i class="fal fa-shield-check fa-2x text-white"></i>
+                            </div>
+                            <h2>Daily Bonus</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, velit? Nihil,
+                                voluptatum sapiente est adipisci sequi quos possimus. Dignissimos, veniam? Ullam natus
+                                debitis earum aspernatur laboriosam qui autem. Nostrum incidunt earum dignissimos ea
+                                facere excepturi.
+                            </p>
+                            <ul class="list-unstyled d-flex flex-wrap list-two-col mt-4 mb-4">
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Thought leadership
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Personal branding
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Modernized
+                                    prospecting</li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Better win rates
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Showcasing success
+                                </li>
+                                <li class="py-1"><i class="fas fa-check-circle me-2 text-primary"></i>Sales compliance
+                                </li>
+                            </ul>
+                            <a href="about-us.html" class="read-more-link text-decoration-none">Know More contest <i
+                                    class="far fa-arrow-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="bg-white pt-5 offerwall-slide">
+            <div class="container">
+                <marquee class="mt-3" onmouseover="this.stop();" onmouseout="this.start();">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                    <img src="./assets/img/opinionworld.png" class="img-fluid" alt="">
+                </marquee>
+            </div>
+        </section>
+
+        <!--testimonial section start-->
+        <section class="testimonial-section ptb-120">
+            <div class="container">
+                <div class="row justify-content-center align-content-center">
+                    <div class="col-md-10 col-lg-6">
+                        <div class="section-heading text-center">
+                            <h4 class="h5 text-primary">Testimonial</h4>
+                            <h2>What They Say About Us</h2>
+                            <p>Dynamically initiate market positioning total linkage with clicks-and-mortar technology
+                                compelling data for cutting-edge markets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="position-relative w-100">
+                            <div class="swiper testimonialSwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="border border-2 p-5 rounded-custom position-relative">
+                                            <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100"
+                                                class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                            <div class="d-flex mb-32 align-items-center">
+                                                <img src="assets/img/testimonial/1.jpg" class="img-fluid me-3 rounded"
+                                                    width="60" alt="user">
+                                                <div class="author-info">
+                                                    <h6 class="mb-0"> {USERNAME}</h6>
+                                                    <small>Founder and CEO at Amaara Herbs</small>
+                                                </div>
+                                            </div>
+                                            <blockquote>
+                                                <h6>The Best Template You Got to Have it!</h6>
+                                                Globally network long-term high-impact schemas vis-a-vis distinctive
+                                                e-commerce
+                                                cross-media infrastructures rather than ethical
+                                            </blockquote>
+                                            <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                            </ul>
+                                            <img src="assets/img/testimonial/quotes.svg" alt="quotes"
+                                                class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-2 p-5 rounded-custom position-relative">
+                                            <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100"
+                                                class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                            <div class="d-flex mb-32 align-items-center">
+                                                <img src="assets/img/testimonial/3.jpg" class="img-fluid me-3 rounded"
+                                                    width="60" alt="user">
+                                                <div class="author-info">
+                                                    <h6 class="mb-0"> {USERNAME}</h6>
+                                                    <small>CEO at Herbs</small>
+                                                </div>
+                                            </div>
+                                            <blockquote>
+                                                <h6>Embarrassed by the First Version.</h6>
+                                                Dynamically create innovative core competencies with effective best
+                                                practices promote innovative infrastructures.
+                                            </blockquote>
+                                            <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                            </ul>
+                                            <img src="assets/img/testimonial/quotes.svg" alt="quotes"
+                                                class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="border border-2 p-5 rounded-custom position-relative">
+                                            <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100"
+                                                class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                            <div class="d-flex mb-32 align-items-center">
+                                                <img src="assets/img/testimonial/2.jpg" class="img-fluid me-3 rounded"
+                                                    width="60" alt="user">
+                                                <div class="author-info">
+                                                    <h6 class="mb-0"> {USERNAME}</h6>
+                                                    <small>Founder and CEO</small>
+                                                </div>
+                                            </div>
+                                            <blockquote>
+                                                <h6>Amazing Quiety template!</h6>
+                                                Appropriately negotiate interactive niches rather than parallel
+                                                strategic theme
+                                                incubate premium total linkage areas.
+                                            </blockquote>
+                                            <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                            </ul>
+                                            <img src="assets/img/testimonial/quotes.svg" alt="quotes"
+                                                class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="border border-2 p-5 rounded-custom position-relative">
+                                            <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100"
+                                                class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                            <div class="d-flex mb-32 align-items-center">
+                                                <img src="assets/img/testimonial/4.jpg" class="img-fluid me-3 rounded"
+                                                    width="60" alt="user">
+                                                <div class="author-info">
+                                                    <h6 class="mb-0"> {USERNAME}</h6>
+                                                    <small>Founder and CTO</small>
+                                                </div>
+                                            </div>
+                                            <blockquote>
+                                                <h6>Best Template for SAAS Company!</h6>
+                                                Dynamically create innovative core competencies with effective best
+                                                practices promote innovative infrastructures.
+                                            </blockquote>
+                                            <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                            </ul>
+                                            <img src="assets/img/testimonial/quotes.svg" alt="quotes"
+                                                class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
+                                        </div>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="border border-2 p-5 rounded-custom position-relative">
+                                            <img src="assets/img/testimonial/quotes-dot.svg" alt="quotes" width="100"
+                                                class="img-fluid position-absolute left-0 top-0 z--1 p-3">
+                                            <div class="d-flex mb-32 align-items-center">
+                                                <img src="assets/img/testimonial/5.jpg" class="img-fluid me-3 rounded"
+                                                    width="60" alt="user">
+                                                <div class="author-info">
+                                                    <h6 class="mb-0"> {USERNAME}</h6>
+                                                    <small>Lead Developer</small>
+                                                </div>
+                                            </div>
+                                            <blockquote>
+                                                <h6>It is undeniably good!</h6>
+                                                Rapidiously supply client-centric e-markets and maintainable processes
+                                                progressively engineer
+                                            </blockquote>
+                                            <ul class="review-rate mb-0 mt-2 list-unstyled list-inline">
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                                <li class="list-inline-item"><i class="fas fa-star text-warning"></i>
+                                                </li>
+                                            </ul>
+                                            <img src="assets/img/testimonial/quotes.svg" alt="quotes"
+                                                class="position-absolute right-0 bottom-0 z--1 pe-4 pb-4">
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <span class="swiper-button-next"></span>
+                            <span class="swiper-button-prev"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--testimonial section end-->
+
+
+        <!--footer section start-->
+        <!--footer section start-->
+        <footer class="footer-section">
+            <!--footer top start-->
+            <!--for light footer add .footer-light class and for dark footer add .bg-dark .text-white class-->
+            <div class="footer-top  bg-gradient text-white ptb-120"
+                style="background: url('assets/img/page-header-bg.svg')no-repeat bottom right">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="col-md-8 col-lg-4 mb-md-4 mb-lg-0">
+                            <div class="footer-single-col">
+                                <div class="footer-single-col mb-4">
+                                    <img src="assets/img/logo-white.png" alt="logo" class="img-fluid logo-white"
+                                        style="height: 72px !important;">
+                                </div>
+                                <p>Our latest news, articles, and resources, we will sent to
+                                    your inbox weekly.</p>
+
+                                <div class="ratting-wrap mt-4">
+                                    <h6 class="mb-0">10/10 Overall rating</h6>
+                                    <ul class="list-unstyled rating-list list-inline mb-0">
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                        <li class="list-inline-item"><i class="fas fa-star text-warning"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 col-lg-7 mt-4 mt-md-0 mt-lg-0">
+                            <div class="row">
+                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                    <div class="footer-single-col">
+                                        <h3>Primary Pages</h3>
+                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
+                                            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+                                            <li><a href="about-us.html" class="text-decoration-none">About Us</a></li>
+                                            <li><a href="about-us.html" class="text-decoration-none">About Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                    <div class="footer-single-col">
+                                        <h3>Money</h3>
+                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
+                                            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+                                            <li><a href="about-us.html" class="text-decoration-none">About Us</a></li>
+                                            <li><a href="about-us.html" class="text-decoration-none">About Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-lg-4 mt-4 mt-md-0 mt-lg-0">
+                                    <div class="footer-single-col">
+                                        <h3>Contact</h3>
+                                        <ul class="list-unstyled footer-nav-list mb-lg-0">
+                                            <li><a href="index.html" class="text-decoration-none">Home</a></li>
+                                            <li><a href="about-us.html" class="text-decoration-none">About Us</a></li>
+                                            <li><a href="about-us.html" class="text-decoration-none">About Us</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--footer top end-->
+
+            <!--footer bottom start-->
+            <div class="footer-bottom  bg-gradient text-white py-4">
+                <div class="container">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-md-7 col-lg-7">
+                            <div class="copyright-text">
+                                <p class="mb-lg-0 mb-md-0">&copy; 2022 Earn Opinion. All Rights Reserved.<br>Designed By
+                                    <a href="https://www.unikbrushes.com/" class="text-decoration-none">UnikBrushes</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-lg-4">
+                            <div class="footer-single-col text-start text-lg-end text-md-end">
+                                <ul class="list-unstyled list-inline footer-social-list mb-0">
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                                    <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--footer bottom end-->
+        </footer>
+        <!--footer section end-->
+        <!--footer section end-->
+
+    </div>
+
+
+
+    <!--build:js-->
+    <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/vendors/swiper-bundle.min.js"></script>
+    <script src="assets/js/vendors/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/vendors/parallax.min.js"></script>
+    <script src="assets/js/vendors/aos.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!--endbuild-->
+</body>
+
+</html>
