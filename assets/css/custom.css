@@ -1,0 +1,25 @@
+.btn-primary {
+  color: #071c4d !important;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  color: white !important;
+}
+
+.hero-section {
+  background: linear-gradient(
+      90deg,
+      rgba(7, 28, 77, 0.99),
+      rgba(0, 45, 151, 0.8)
+    ),
+    url("../img/slider-bg.jpg") !important;
+}
+
+.marquee ul li {
+  display: flex;
+}
+
+.offerwall-slide img {
+  margin-right: 30px;
+}
